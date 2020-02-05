@@ -1,0 +1,4 @@
+section .jumbotron {
+  background-image: url("Img/CCADesignSpectrum.png");
+  background-size: cover;
+}
