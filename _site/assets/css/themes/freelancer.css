@@ -1,8 +1,8 @@
 :root {
-  --color-primary:#ffd200;
-  --color-secondary:#ff546c;
-  --color-gradient-start:#ffd200;
-  --color-gradient-stop:#ffd200;
+  --color-primary:#0057e7;
+  --color-secondary:#008744;
+  --color-gradient-start:#008744;
+  --color-gradient-stop:#008744;
 }
 
 body {

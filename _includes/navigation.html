@@ -1,0 +1,26 @@
+<div class="col">
+
+  <div class="collapse navbar-collapse" id="main-header-collapse">
+
+    <ul class="main-nav main-nav-hover-underline-2 nav align-items-lg-stretch justify-content-lg-start" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
+
+      {% for item in site.data.navigation %}
+        <li>
+          <a href="{{ item.link }}">
+            <span class="link-icon"></span>
+            <span class="link-txt">
+              <span class="link-ext"></span>
+              <span class="txt">{{ item.name }}</span>
+              <span class="submenu-expander">
+              <i class="fa fa-angle-down"></i>
+              </span>
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+
+    </ul><!-- /#primary-nav  -->
+
+  </div><!-- /#main-header-collapse -->
+
+</div><!-- /.col -->
