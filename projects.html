@@ -1,0 +1,70 @@
+---
+layout: default
+title: CCA Projects
+---
+
+<!-- top of page -->
+<section class="vc_row pt-240 pb-240 bg-cover bg-center color-tertiary" style="">
+  <div class="container">
+    <div class="row">
+
+      <div class="lqd-column col-md-8 pb-md-4">
+        <h1>
+          CCA Portfolio
+        </h1>
+
+        <p>
+          <span class="text-primary bg-white">
+            At Crawley Creative Agency, not only do we consult with you to produce the best or tailor current solutions and processes for your company's brand, project and operations management, we also walk through the entire process with you, providing end-to-end services for you, or by pointing you in the right direction to receive the right services from the right providers.
+          </span>
+        </p>
+
+      </div><!-- /.lqd-column col-md-8 -->
+
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section>
+
+<section id="about" class="vc_row pb-110" style="background-color: #171717;">
+    <div class="container">
+      <div class="row">
+        <div class="lq-column col">
+          <p class="text-white">Scroll to view our portfolio of our top clients</p>
+        </div>
+      </div>
+      <div class="row mb-120 mt-120">
+        <div class="lqd-column col-md-12 border-radius-4 pt-70 pb-90 bg-cover" style="margin-top: -10%;">
+          {% for item in site.data.projects %}
+
+          <div class="row">
+
+            <div
+              class="lqd-column col-lg-8 col-md-5 col-lg-offset-1 text-white"
+              data-custom-animations="true"
+              data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"500","delay":"30","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":45,"translateZ":-125,"rotateZ":-1,"opacity":0},"animations":{"translateY":0,"translateZ":0,"rotateZ":0,"opacity":1}}'>
+
+              <h3 class="text-white">
+                {{ item.client }}
+              </h3>
+              <p class="mb-60">
+                <b>Services Provided:</b><br>
+                {{ item.services }}
+                <br>
+                <b>Description:</b><br>
+                {{ item.description }}
+              </p>
+              <hr>
+            </div><!-- /.col-lg-4 col-md-5 col-lg-offset-1 -->
+
+
+          </div><!-- /.row -->
+
+          {% endfor %}
+      </div><!-- /.lqd-column col-md-12 -->
+
+    </div><!-- /.row -->
+
+
+
+  </div><!-- /.container -->
+</section>

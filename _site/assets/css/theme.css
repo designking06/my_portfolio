@@ -88,7 +88,7 @@
 		|- 4.4. Text Block
 
 	6. PARTIALS
-		|- 6.1. Search Results 
+		|- 6.1. Search Results
 		|- 6.2. 404 Not Found
 		|- 6.3. Sidebar
 		|- 6.4. Page Frame
@@ -121,8 +121,8 @@
   --color-secondary: #ffb09f;
   --color-link: #a7a9b8;
   --color-link-hover: #181b31;
-  --color-gradient-start: #4fda91;
-  --color-gradient-stop: #34dbc5;
+  --color-gradient-start: #828282;
+  --color-gradient-stop: #171717;
   --color-img-holder: #efefef;
 }
 
@@ -19232,25 +19232,25 @@ body.search .no-results .search-form input[type=submit] {
   -------------
   MOBULE HEADER
   -------------
-  
+
   - Nav trigger alignment
   [data-mobile-nav-trigger-alignment]: [left, right]
-  
+
   - Logo alignment
   [data-mobile-logo-alignment]: [default, center]
-  
+
   - Nav Style
   [data-mobile-nav-style]: [classic, minimal, modern]
-  
+
   - Nav scheme
   [data-mobile-nav-scheme]: [gray, light, dark]
-  
+
   - Nav alignment
   [data-mobile-nav-align]: [left, center, right]
-  
+
   - Header Scheme
   [data-mobile-header-scheme]: [light, gray, dark]
-  
+
   *********************************************************/
   .main-header {
     position: relative;
