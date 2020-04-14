@@ -1,23 +1,41 @@
 - client: Locked n Forever Records
-  logo:
+  logo: assets/img/logo_LNF_lock_border.png
+  size: contain
   website:
   services: Business Plan development, Brand development, Marketing strategy, logo design, social media management
   description: The founders came to us with the idea of starting a record company, and asked if we could let them know what they needed to get the ball rolling and help them build the foundation of their company into a brand. We started off by developing a business plan, branding strategy and marketing strategy, going through a couple of revisions to make sure everything was sound and consistent. We then used their purpose, vision and target market to develop their logo and brand presentation. Following that, we proceeded to create graphics, develop their services and establish a social media presence with some advertising strategies.
 
 - client: Lux Jewels Crystal Creations
-  logo:
+  logo: assets/img/luxjewels_screenshot.png
+  size: cover
   website: https://luxjewelscrystalcreations.com
   services: Product design, Web development, Brand strategy, Social Media management
   description: We have been in business with Lux Jewels since 2018. It started off with web development, but after some consulting, we came to the realization that their branding, marketing and operations could be more efficient. Not only did we create the website and provide product photography, we also worked with them to develop a more resonant brand, an inventory system, packaging, new products, and a social media presence.
 
+- client: Brenda Howerton
+  logo: assets/img/banner_howerton.jpg
+  size: cover
+  website:
+  services: Social Media Management
+  description: Durham County Primary Election 2020
+
+- client: Native Genius Media
+  logo: assets/img/ngm_official_astro_white.png
+  size: contain
+  website:
+  services: Brand Design, Logo design
+  description: We partnered with NGM to develop a brand image for their YouTube channel and social media presence.
+
 - client: Complete Transportation Distribution Company
   logo:
+  size:
   website:
   services: Branding, Marketing strategy, logo design, web development
-  description:
+  description: Our partnership with CTDC started off as a logo project. They later returned to us for web development, branding and marketing strategy
 
 - client: The MMGroup
   logo:
+  size:
   website:
-  services: Web Development
-  description:
+  services: Web Development, Logo cleanup
+  description: The MMGroup is a recruitment company who needed a site that would assist both job seekers and employers. They partnered with us to develop a site to post job openings, collect information from applicants including resume's and upload blogs in order to maintain traffic to the site.

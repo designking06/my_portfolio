@@ -33,17 +33,18 @@
   							<div class="col-auto">
 
   								<div class="navbar-header">
+
   									<a class="navbar-brand" href="index.html" rel="home">
-											CCA
-											<!--
   										<span class="navbar-brand-inner">
-												<img class="logo-dark" src="" alt="dark logo">
-  											<img class="logo-sticky" src="" alt="logo">
-  											<img class="mobile-logo-default" src="" alt="mobile logo">
-  											<img class="logo-default" src="" alt="logo">
-  										</span>
-										-->
+												{% for brand in site.data.brand %}
+												<img class="logo-dark" src="{{ brand.logo }}" alt="dark logo">
+  											<img class="logo-sticky" src="{{ brand.logo }}" alt="logo">
+  											<img class="mobile-logo-default" src="{{ brand.logo }}" alt="mobile logo">
+  											<img class="logo-default" src="{{ brand.logo }}" alt="logo">
+												{% endfor %}
+											</span>
   									</a>
+
   									<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
   										<span class="sr-only">Toggle navigation</span>
   										<span class="bars">
