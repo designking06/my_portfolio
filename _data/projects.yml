@@ -27,8 +27,8 @@
   description: We partnered with NGM to develop a brand image for their YouTube channel and social media presence.
 
 - client: Complete Transportation Distribution Company
-  logo:
-  size:
+  logo: assets/img/logo_ctdc.png
+  size: contain
   website:
   services: Branding, Marketing strategy, logo design, web development
   description: Our partnership with CTDC started off as a logo project. They later returned to us for web development, branding and marketing strategy
