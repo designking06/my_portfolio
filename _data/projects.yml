@@ -33,6 +33,13 @@
   services: Branding, Marketing strategy, logo design, web development
   description: Our partnership with CTDC started off as a logo project. They later returned to us for web development, branding and marketing strategy
 
+- client: Wokovart
+  logo: assets/img/wokovart.JPG
+  size: contain
+  website: https://wokovart.com
+  services: Web Development, Branding, Marketing
+  description: Wokovart presented a unique challenge. We needed to create a social media platform for sharing photos, videos and blogs, as well as develop a backend admin system for users to collaborate on projects with each other. On top of that, users needed to be able to post and sell their own products, which required a checkout system and inventory management system.
+
 - client: The MMGroup
   logo:
   size:
